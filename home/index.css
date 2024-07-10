@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap');
+
 body, * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: var(--light--);
+    font-family: "Inter Tight", sans-serif;
 }
 
 :root {
@@ -99,8 +101,8 @@ a {
 }
 
 menu{
-margin-left: 22px;
-background-color: #5030E514;
+    margin-left: 22px;
+    background-color: #5030E514;
 }
 
 .dot {
@@ -110,9 +112,46 @@ background-color: #5030E514;
     margin-right: 20px;
     border-radius: 50%;
     border: none;
-    background-color: green;
+}
+
+.dot-green {
+    background-color: #7AC555;
+}
+
+.dot-orange {
+    background-color: #FFA500;
+}
+
+.dot-purple {
+    background-color: #E4CCFD;
+}
+
+.dot-blue {
+    background-color: #76A5EA;
 }
 
 .options{
     padding: 20px 20px;
+}
+
+.my-project {
+    display: flex;
+    gap: 140px;
+    padding-bottom: 30px;
+}
+
+.my-project h2 {
+    color: #787486;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #787486;
+    border-radius: 4px;
+    width: 13.33px;
+    height: 13.33px;
 }
